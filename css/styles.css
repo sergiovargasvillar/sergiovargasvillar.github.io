@@ -63,21 +63,9 @@ footer {
 
 .resume-pdf {
     width: 70%;
-    height: 65vh; /* Height set to 80% of the viewport height */
+    height: 50em;
     border: none; /* Remove the border */
     display: block;
     margin: 0 auto;
 }
 
-/* Media Query for smaller screens */
-@media (max-width: 768px) {
-    .resume-pdf {
-        height: 60vh; /* Adjust height for smaller screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .resume-pdf {
-        height: 50vh; /* Adjust height for very small screens */
-    }
-}
